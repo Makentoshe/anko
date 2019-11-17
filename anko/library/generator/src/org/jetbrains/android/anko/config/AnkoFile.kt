@@ -20,13 +20,13 @@ import org.jetbrains.android.anko.config.ArtifactType.*
 import org.jetbrains.android.anko.utils.toCamelCase
 
 enum class AnkoFile(applicableArtifactTypes: Set<ArtifactType>) : ConfigurationKey<Boolean> {
-    LAYOUTS(setOf(PLATFORM, SUPPORT_V4, TOOLKIT)),
+    LAYOUTS(setOf(PLATFORM, SUPPORT_V4, ANDROID_X, TOOLKIT)),
     LISTENERS(setOf(SIMPLE_LISTENERS)),
     LISTENERS_WITH_COROUTINES(setOf(COROUTINE_LISTENERS)),
-    PROPERTIES(setOf(PLATFORM, SUPPORT_V4, TOOLKIT)),
-    SERVICES(setOf(PLATFORM, SUPPORT_V4, TOOLKIT)),
+    PROPERTIES(setOf(PLATFORM, SUPPORT_V4, ANDROID_X, TOOLKIT)),
+    SERVICES(setOf(PLATFORM, SUPPORT_V4, TOOLKIT, ANDROID_X)),
     SQL_PARSER_HELPERS(setOf(SQLITE)),
-    VIEWS(setOf(PLATFORM, SUPPORT_V4, TOOLKIT));
+    VIEWS(setOf(PLATFORM, SUPPORT_V4, TOOLKIT, ANDROID_X));
 
     val types: Set<ArtifactType> = applicableArtifactTypes.toSet()
 
