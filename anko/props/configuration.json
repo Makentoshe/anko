@@ -1,6 +1,7 @@
 {
   "templates": {
     "support": "dependencies/android-sdk/extras/android/m2repository/com/android/support",
+    "androidx": "dependencies/androidx",
     "platforms": "dependencies/android-sdk/platforms",
     "supportVer": "25.1.1",
     "androidxVer": "1.0.0"
