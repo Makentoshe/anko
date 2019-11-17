@@ -7,5 +7,6 @@ enum class ArtifactType(val nameInConfiguration: String) {
     SUPPORT_V4("supportV4"), // Anko Layouts for Android support-v4 library
     TOOLKIT("toolkit"), // Anko Layouts for any other Android libraries
     SIMPLE_LISTENERS("simpleListeners"), // Old View listeners
-    COROUTINE_LISTENERS("coroutineListeners") // View listeners with coroutine support
+    COROUTINE_LISTENERS("coroutineListeners"), // View listeners with coroutine support
+    ANDROID_X("androidx") // Anko Layouts for Androidx
 }
