@@ -1,0 +1,6 @@
+apply from: '../../library.gradle'
+
+dependencies {
+    api "androidx.fragment:fragment-ktx:$ANDROIDX_VERSION"
+    api project(':static:commons-base')
+}
