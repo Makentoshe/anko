@@ -15,7 +15,7 @@
  */
 
 @file:Suppress("unused")
-package org.jetbrains.anko.support.v4
+package org.jetbrains.anko.androidx
 
 import androidx.fragment.app.Fragment
 import android.view.View
