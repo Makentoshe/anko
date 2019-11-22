@@ -10,7 +10,8 @@ include ':static:design-base'
 include ':static:supportV4-base'
 include ':static:appcompatV7-base'
 include ':static:constraint-layout-base'
-include ':static:androidx-base'
+include ':static:supportV4-base-androidx'
+include ':static:appcompatV7-base-androidx'
 
 include ':generated'
 include ':generated:anko'
@@ -76,7 +77,8 @@ project(':static:design-base').projectDir = new File(rootDir, 'anko/library/stat
 project(':static:supportV4-base').projectDir = new File(rootDir, 'anko/library/static/supportV4')
 project(':static:appcompatV7-base').projectDir = new File(rootDir, 'anko/library/static/appcompatV7')
 project(':static:constraint-layout-base').projectDir = new File(rootDir, 'anko/library/static/constraint-layout')
-project(':static:androidx-base').projectDir = new File(rootDir, 'anko/library/static/androidx')
+project(':static:supportV4-base-androidx').projectDir = new File(rootDir, 'anko/library/static/supportV4-androidx')
+project(':static:appcompatV7-base-androidx').projectDir = new File(rootDir, 'anko/library/static/appcompatV7-androidx')
 
 project(':generated').projectDir = new File(rootDir, 'anko/library/generated')
 project(':generated:anko').projectDir = new File(rootDir, 'anko/library/generated/anko')
