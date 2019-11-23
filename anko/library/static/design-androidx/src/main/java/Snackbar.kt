@@ -19,6 +19,8 @@
 package org.jetbrains.anko.design
 
 import android.view.View
+import androidx.annotation.StringRes
+import com.google.android.material.snackbar.Snackbar
 
 /**
  * Display the Snackbar with the [Snackbar.LENGTH_SHORT] duration.
