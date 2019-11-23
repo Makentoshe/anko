@@ -6,6 +6,6 @@ configurations {
 }
 
 dependencies {
-    api project(':static:commons-base')
+    api project(':static:commons-base-androidx')
     stubs project(':stubs') // needed to resolve dependency cycle
 }

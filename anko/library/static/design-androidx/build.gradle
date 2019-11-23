@@ -3,5 +3,5 @@ apply from: '../../library.gradle'
 dependencies {
     api "com.google.android.material:material:$ANDROIDX_VERSION"
     api "androidx.annotation:annotation$ANDROIDX_VERSION"
-    api project(':static:commons-base')
+    api project(':static:commons-base-androidx')
 }

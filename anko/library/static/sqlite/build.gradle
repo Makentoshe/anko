@@ -1,5 +1,5 @@
 apply from: '../../library.gradle'
 
 dependencies {
-    api project(':static:commons-base')
+    api project(':static:commons-base-androidx')
 }
